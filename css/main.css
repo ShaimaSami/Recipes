@@ -1,0 +1,118 @@
+:root{
+    --primary-color: #ffffff;
+    --primary-color-highlight: #090404;
+    --bs-body-bg: #dbdada;
+    --bs-body-font-family: 'Montserrat','Yeon Sung', sans-serif;
+
+
+}
+
+html{scroll-behavior: smooth;}
+a{color: var(--primary-color-highlight);}
+a:hover{color: var(--primary-color-);}
+
+
+/*
+* custom container
+*/
+
+.container-custom{
+    width: 100;
+    padding: 0 1rem;
+    margin: 0 auto;
+
+}
+
+
+@media (min-width: 1200px){
+.container-custom {width: 1140px;}
+}
+
+@media (min-width: 1600px){
+    .container-custom {width: 1520px;}
+    }
+
+/*
+* Main Heared
+*/
+.header{
+    z-index: 2;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+@media (min-width: 1400px){
+
+    .hero__heading{ 
+    font-size: 3.2rem;
+    }
+}
+
+
+.hero__video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primary-color-highlight);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.hero__content{
+    z-index: 1;
+}
+
+.hero__content-width{
+    max-width: 540px;
+}
+
+.hero__scroll-btn{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: var(--bs-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.hero__scroll-btn:hover {
+color: var(--bs-warning);
+opacity: 0.8;
+}
+
+.hero__scroll-btn{
+    transition-delay: 0.8s;
+    animation: bounce 3s infinite alternate;
+}
+
+
+@keyframes bounce {
+    from{
+        transform: translateY(o);
+    }
+    to{
+        transform: translateY(-20px);
+    }
+}
