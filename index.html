@@ -26,7 +26,7 @@
     />
 
     <!-- css -->
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- animate.css -->
     <link
@@ -69,6 +69,15 @@
                 <a class="nav-link text-white" href="#footer">About Us</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link text-warning" href="#flavor">Amazing Flavour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#toast">Egg Toast</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#veggie">Veggie Bowl</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link text-white" href="#ott">Steps</a>
               </li>
               <li class="nav-item">
@@ -104,10 +113,10 @@
         <source src="img/cokvid.mp4" type="video/mp4" />
       </video>
 
-      <div class="hero__content h-100 container-custom position-relative">
+      <div class="hero__content h-100 container-fluid position-relative">
         <div class="d-flex h-100 align-items-center hero__content-width">
-          <div class="text-white">
-            <h1 class="hero__heading fw-bold mb-4">
+          <div class="text-white p-3">
+            <h1 class="hero__heading fw-bold mb-4 ">
               Discover The Taste Of Real Dishes
             </h1>
             <p class="lead mb-4">
@@ -137,9 +146,9 @@
 
     <a id="scroll-down"></a>
     <!-- part 1 section 1 start -->
-    <section class="steps container-custom">
+    <section id="flavor" class="steps container-fluid">
       <div class="row">
-        <div class="col-12 col-sm-6 d-md-flex justify-content-md-ceneter">
+        <div class="col-12 col-md-6 d-md-flex justify-content-md-ceneter">
           <img
             src="img/mix.jpg"
             alt="mix"
@@ -150,9 +159,9 @@
           />
         </div>
         <div
-          class="col-12 col-sm-6 align-self-center justify-content-md-center"
+          class="col-12 col-md-6 align-self-center justify-content-md-center"
         >
-          <div class="steps__content-width">
+          <div class="steps__content-width mx-5">
             <span>01</span>
             <h1 class="h2 mb-4">Amazing Flavour</h1>
             <p class="mb4">
@@ -169,11 +178,10 @@
     <!-- part 1 section 1 end -->
 
     <!-- part 1 section 2 start -->
-    <section class="steps steps--background">
-      <div class="container-custom">
+    <section id="toast" class="steps steps--background container-fluid">
         <div class="row">
           <div
-            class="col-12 col-sm-6 d-md-flex justify-content-md-ceneter order-sm-1"
+            class="col-12 col-md-6 d-md-flex justify-content-md-ceneter order-md-1"
           >
            <img
               src="img/egg.jpg"
@@ -185,9 +193,9 @@
             />
           </div>
           <div
-            class="col-12 col-sm-6 align-self-center justify-content-md-center"
+            class="col-12 col-md-6 align-self-center justify-content-md-center"
           >
-            <div class="steps__content-width">
+            <div class="steps__content-width ms-5">
               <span>02</span>
               <h1 class="h2 mb-4">Egg Toast</h1>
               <p class="mb4">
@@ -200,14 +208,13 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- part 1 section 2 end -->
 
     <!-- part 1 section 3 start -->
-    <section class="steps container-custom">
+    <section id="veggie" class="steps container-fluid">
       <div class="row">
-        <div class="col-12 col-sm-6 d-md-flex justify-content-md-ceneter">
+        <div class="col-12 col-md-6 d-md-flex justify-content-md-ceneter">
           <img
             src="img/ha.jpg"
             alt="mix"
@@ -218,9 +225,9 @@
           />
         </div>
         <div
-          class="col-12 col-sm-6 align-self-center justify-content-md-center"
+          class="col-12 col-md-6 align-self-center justify-content-md-center"
         >
-          <div class="steps__content-width">
+          <div class="steps__content-width mx-5">
             <span>03</span>
             <h1 class="h2 mb-4">Veggie Bowl</h1>
             <p class="mb4" id="ott">
@@ -238,11 +245,9 @@
 
     <!-- part 2 section 1 start -->
 
-    <section>
-      <div class="bg-dark text-white py-4">
-        <div class="container-custom my-4">
-          <div class="row">
-            <div class="col-12 col-sm-4 mb-4">
+    <section class="container-fluid my-4 bg-dark text-white py-4 ">
+          <div class="row justify-content-around">
+            <div class="col-12 col-md-3 mb-4">
               <a href=""><img
                 src="img/ingrediengt.jpg"
                 class="mb-4 img-fluid"
@@ -260,7 +265,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-sm-4 mb-4">
+            <div class="col-12 col-md-3 mb-4">
               <a href=""><img
                 src="img/cut.jpg"
                 class="mb-4 img-fluid"
@@ -278,7 +283,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-sm-4 mb-4">
+            <div class="col-12 col-md-3 mb-4">
               <a href=""><img
                 src="img/rice.jpg"
                 class="mb-4 img-fluid"
@@ -296,8 +301,6 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
     </section>
     <!-- part 2 section 1 end -->
 
@@ -353,7 +356,7 @@
 
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <p><small>&copy; Copyright 2022, Recipes</small></p>
+            <p><mdall>&copy; Copyright 2022, Recipes</mdall></p>
           </div>
         </div>
       </div>
@@ -368,11 +371,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZmdKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
     <script
